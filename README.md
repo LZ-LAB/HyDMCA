@@ -19,13 +19,13 @@ The version of Python and major packages needed to run the code:
 #### 1. Mixed Arity Knowledge Hypergraph
 ```
 ## JF17K dataset
-python main-JF.py --dataset JF17K --batch_size 400 --lr 0.00020 --dr 0.999 --input_drop 0.5 --hidden_drop 0.4 --feature_drop 0.2 --dembed 100 --RAD_Size 2 --num_heads 4
+python main-JF.py --dataset JF17K
 
 ## WikiPeople dataset
-python main-WP.py --dataset WikiPeople --batch_size 700 --lr 0.00025 --dr 0.995 --input_drop 0.7 --hidden_drop 0.9 --feature_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 1
+python main-WP.py --dataset WikiPeople
 
 ## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.00010 --dr 0.995 --input_drop 0.6 --hidden_drop 0.5 --feature_drop 0.5 --dembed 400 --RAD_Size 6 --num_heads 4
+python main-FB.py --dataset FB-AUTO --batch_size 600 --lr 0.00014 --dr 0.995 --input_drop 0.8 --hidden_drop 0.1 --feature_drop 0.0 --Weight_Size 0.5 --num_heads 8
 ```
 
 
@@ -137,6 +137,3 @@ python main.py -dataset *** -lr 0.08 -nr 100 -window_size 2 -batch_size 512 -num
 Since the source codes of baseline models HypE, HSimplE, m-TransH, m-CP, m-DitMult, RD-MPNN, and ReAlE support a maximum Arity of 6, none of them can handle the semantically rich WikiPeople dataset.
 We have rationalized their source codes to make them applicable to the WikiPeople dataset.
 A modified version of `Arity>6` with the `HypE/HSimplE` model as the core framework is uploaded in our open source code. The code frameworks of other models (e.g. m-TransH, m-CP, m-DitMult, RD-MPNN, and ReAlE) are based on the HypE model, so they are all the same.
-
-
-

@@ -37,10 +37,8 @@ python main-3ary.py --dataset WikiPeople-3 --batch_size 700 --lr 0.00004 --dr 0.
 ## JF17K-4 dataset
 python main-4ary.py --dataset JF17K-4 --batch_size 900 --lr 0.00027 --dr 0.995 --input_drop 0.8 --hidden_drop 0.4 --feature_drop 0.0 --Weight_Size 0.4 --num_heads 2
 
-
 ## JF17K-5 dataset
 python main-5ary.py --dataset JF17K-5 --batch_size 400 --lr 0.00063 --dr 0.99 --input_drop 0.8 --hidden_drop 0.5 --feature_drop 0.2 --Weight_Size 0.3 --num_heads 4
-
 
 ## WikiPeople-5 dataset
 python main-5ary.py --dataset WikiPeople-5 --batch_size 300 --lr 0.00014 --dr 0.995 --input_drop 0.9 --hidden_drop 0.3 --feature_drop 0.3 --Weight_Size 0.3 --num_heads 4

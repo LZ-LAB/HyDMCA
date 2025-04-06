@@ -48,16 +48,16 @@ python main-5ary.py --dataset WikiPeople-5 --batch_size 300 --lr 0.00014 --dr 0.
 #### 2. Binary Knowledge Graph
 ```
 ## FB15K-237 dataset
-python main-2ary.py --dataset FB15K-237 --batch_size 100 --lr 0.00058 --dr 0.99 --input_drop 0.5 --hidden_drop 0.4 --feature_drop 0.6 --dembed 100 --RAD_Size 6 --num_heads 1
+python main-2ary.py --dataset FB15K-237 --batch_size 200 --lr 0.00012 --dr 0.995 --input_drop 0.8 --hidden_drop 0.4 --feature_drop 0.8 --Weight_Size 0.4 --num_heads 2
 
 ## JF17K-2 dataset
-python main-2ary.py --dataset JF17K-2 --batch_size 900 --lr 0.00012 --dr 0.99 --input_drop 0.1 --hidden_drop 0.6 --feature_drop 0.1 --dembed 500 --RAD_Size 6 --num_heads 8
+python main-2ary.py --dataset JF17K-2 --batch_size 300 --lr 0.00007 --dr 0.99 --input_drop 0.1 --hidden_drop 0.3 --feature_drop 0.7 --Weight_Size 0.1 --num_heads 2
 
 ## WikiPeople-2 dataset
-python main-2ary.py --dataset WikiPeople-2 --batch_size 800 --lr 0.00037 --dr 0.995 --input_drop 0.7 --hidden_drop 0.6 --feature_drop 0.5 --dembed 400 --RAD_Size 10 --num_heads 1
+python main-2ary.py --dataset WikiPeople-2
 
 ## FB-AUTO-2 dataset
-python main-2ary.py --dataset FB-AUTO-2 --batch_size 300 --lr 0.00027 --dr 0.999 --input_drop 0.9 --hidden_drop 0.2 --feature_drop 0.7 --dembed 500 --RAD_Size 1 --num_heads 1
+python main-2ary.py --dataset FB-AUTO-2 --batch_size 100 --lr 0.00018 --dr 0.999 --input_drop 0.9 --hidden_drop 0.0 --feature_drop 0.0 --Weight_Size 0.3 --num_heads 6
 ```
 
 

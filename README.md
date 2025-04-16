@@ -25,7 +25,7 @@ python main-JF.py --dataset JF17K --batch_size 1000 --lr 0.00001 --dr 0.999 --in
 python main-WP.py --dataset WikiPeople
 
 ## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 600 --lr 0.00014 --dr 0.995 --input_drop 0.8 --hidden_drop 0.1 --feature_drop 0.0 --Weight_Size 0.5 --num_heads 8
+python main-FB.py --dataset FB-AUTO --batch_size 600 --lr 0.00014 --dr 0.995 --input_drop 0.8 --hidden_drop 0.1 --feature_drop 0.0 --Weight_Size 0.3 --num_heads 8
 ```
 
 
